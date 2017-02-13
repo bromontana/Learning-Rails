@@ -21,15 +21,15 @@ From what I understamd:
 
 
 ```
-my@shit:  ~/$ rails new MyNewApp
-my@shit:  ~/$ bundle install
+my@hostname:  ~/$ rails new MyNewApp
+my@hostname:  ~/$ bundle install
 ```
 
 
 ### Example Controller and Action setup
 
 ```
-my@shit:  ~/$ rails generate controller pages
+my@hostname:  ~/$ rails generate controller pages
 ```
 
 Then open `apps/controllers/pages_controller.rb` and add 

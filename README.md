@@ -12,6 +12,7 @@ This basically means setting up all the Router/Controller/Viewer
 stuff(?). 
 
 ![This is what it looks like](resources/request-response-cycle-static.png)
+
 From what I understamd: 
 
  + Router: Handles requests and points them to correct requests
@@ -99,6 +100,17 @@ This is great progress, but this is just the beginning! After this we get
 into more of the backend part of Rails! Databases!
 
 
-## Starting From Scratch: Request-Response Cycle for Static Apps
+## Starting From Scratch: Request-Response Cycle for Dynamic Apps
+
+The difference between the static and dynamic apps are something called the 
+'model'. 
+
+![This is the Cycle for Dynamic Apps](resources/request-responce-cycle-dynamic.png)
+
+The model can be described as the thing that handles all of the data from the database. 
+If you look at the diagram you will see that the controler askes the model for data, and 
+the model gives it what it needs, then the controller can give that to the viewer and 
+the viewer can use the data to correctly return the page to the user. 
 
 
+### Example Model Setup

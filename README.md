@@ -37,7 +37,7 @@ my@hostname:  ~/$ rails generate controller pages
 Then open `apps/controllers/pages_controller.rb` and add 
 the methods you need. In this case we will add `home`. 
 
-```
+```Ruby
 class PagesController < ApplicationController 
   
     # Here is the method that we created 
@@ -105,7 +105,7 @@ into more of the backend part of Rails! Databases!
 The difference between the static and dynamic apps are something called the 
 'model'. 
 
-![This is the Cycle for Dynamic Apps](resources/request-responce-cycle-dynamic.png)
+![This is the Cycle for Dynamic Apps](resources/request-response-cycle-dynamic.png)
 
 The model can be described as the thing that handles all of the data from the database. 
 If you look at the diagram you will see that the controler askes the model for data, and 

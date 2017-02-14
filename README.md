@@ -11,6 +11,7 @@ better and may even one day help me explain it better.
 This basically means setting up all the Router/Controller/Viewer 
 stuff(?). 
 
+![This is what it looks like](resources/request-response-cycle-static.svg)
 From what I understamd: 
 
  + Router: Handles requests and points them to correct requests
